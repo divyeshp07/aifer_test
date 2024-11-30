@@ -6,7 +6,7 @@ class DataFetchingServices{
   static final http.Client _client = http.Client();
 
   static Future<List<UnsplashModel>> fetchData() async {
-    final url = Uri.parse('https://api.unsplash.com/photos?client_id='+ApiKeys.clint_id);
+    final url = Uri.parse('https://api.unsplash.com/photos?client_id=${ApiKeys.clint_id}');
 
 
     try {
@@ -16,10 +16,10 @@ class DataFetchingServices{
         print(response.body);
         return unsplashModelFromJson(response.body);
       }
-      throw Exception('Failed to load images');
+      throw Exception('failed load images');
     } catch (e) {
       print(e);
-      throw Exception('Error: $e');
+      throw Exception(e);
     }
   }
 }

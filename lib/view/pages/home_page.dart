@@ -11,13 +11,13 @@ class HomePage extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Trending Images'),
+        title: const Text('walpappers'),
       ),
       body: trendingImagesAsync.when(
         data: (images) {
           if (images.isEmpty) {
             return const Center(
-              child: Text('No images available'),
+              child: Text('no images '),
             );
           }
 
@@ -31,8 +31,7 @@ class HomePage extends ConsumerWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Image.network(
-                      image.urls!.small??'', // Display the image
-                      // image.!,
+                      image.urls!.small??'', 
                       fit: BoxFit.cover,
                       height: 200,
                     ),
