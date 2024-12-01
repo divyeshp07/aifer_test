@@ -18,7 +18,7 @@ migrate_working_dir/
 **secret_key.dart
 **freezed.dart
 **g.dart
-**downloading_services.dart
+# downloading_services.dart
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
