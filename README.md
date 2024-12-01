@@ -1,16 +1,52 @@
-# aifer_test
+Steps to Set Up the Project
+Clone the Repository
 
-A new Flutter project.
+bash
+Copy code
+git clone https://github.com/divyeshp07/aifer_test.git  
+cd aifer_test  
+Install Dependencies
+Fetch the required dependencies:
 
-## Getting Started
+bash
+Copy code
+flutter pub get  
+Generate Model Classes
+The project uses build_runner for generating data models. Run the following command to generate files:
 
-This project is a starting point for a Flutter application.
+bash
+Copy code
+dart run build_runner build  
+If you encounter conflicts, use:
 
-A few resources to get you started if this is your first Flutter project:
+bash
+Copy code
+dart run build_runner build --delete-conflicting-outputs  
+Run the Project
+Start the app on an emulator or a connected device:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+bash
+Copy code
+flutter run  
+Project Structure
+controller/: Manages state and providers.
+view/pages/: Contains application screens.
+view/widgets/: Reusable UI components.
+models/: Data models with code generation support.
+Features
+Dynamic UI: A responsive and visually appealing interface.
+Riverpod State Management: Efficient and reactive state handling.
+Code Generation: Immutable models and JSON serialization using build_runner.
+Responsive Layouts: Ensures seamless experience across devices.
+UI Screenshots
+Wallpapers UI
+![UI](assets/images/Screenshot_1733041039.png)
+![UI](assets/images/Screenshot_1733041042.png)
+![UI](assets/images/Screenshot_1733045360.png)
+![UI](assets/images/Screenshot_1733045367.png)
+![UI](assets/images/Screenshot_1733045929.png)
+![UI](assets/images/Screenshot_1733046006.png)
+![UI](assets/images/Screenshot_1733046017.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
