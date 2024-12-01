@@ -40,13 +40,13 @@ Code Generation: Immutable models and JSON serialization using build_runner.
 Responsive Layouts: Ensures seamless experience across devices.
 UI Screenshots
 Wallpapers UI
-![UI](assets/images/Screenshot_1733041039.png)
-![UI](assets/images/Screenshot_1733041042.png)
-![UI](assets/images/Screenshot_1733045360.png)
-![UI](assets/images/Screenshot_1733045367.png)
-![UI](assets/images/Screenshot_1733045929.png)
-![UI](assets/images/Screenshot_1733046006.png)
-![UI](assets/images/Screenshot_1733046017.png)
+<img src="assets/images/Screenshot_1733041039.png" width="200" />
+<img src="assets/images/Screenshot_1733041042.png" width="200" />
+<img src="assets/images/Screenshot_1733045360.png" width="200" />
+<img src="assets/images/Screenshot_1733045367.png" width="200" />
+<img src="assets/images/Screenshot_1733045929.png" width="200" />
+<img src="assets/images/Screenshot_1733046006.png" width="200" />
+<img src="assets/images/Screenshot_1733046017.png" width="200" />
 
 
 
