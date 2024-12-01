@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'unsplash_model.dart';
+part of 'unsplash_model.dart';ss
 
 // **************************************************************************
 // JsonSerializableGenerator
